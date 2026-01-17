@@ -1,0 +1,198 @@
+//**
+//  开发目的：PC端 页
+//  开发人员：huangjianqing
+//  创建时间：
+//  更新时间：
+//**
+@import "public";
+// 公用样式
+//-------------------------- */
+a:hover {
+    text-decoration: underline!important;
+}
+.f-l {
+    float: left;
+}
+.f-r {
+    float: right;
+}
+@mixin content {
+    width: 1200px;
+    margin: auto;
+}
+.con-bg {
+
+}
+.bghui {
+    background: #fafafa;
+}
+
+.anchorBL {
+    display: none;
+}
+
+.top {
+    background-color: #eeeeee;
+    height: 1px;
+}
+.top-bar {
+    width:1200px;
+    margin: auto;
+}
+.top-bar a:hover{
+    text-decoration: underline;
+}
+.top-bar:after, .head:after, .nav ul:after, .content:after, .shuju-box:after, .gs-box:after, .column:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.top-back {
+    float: left;
+
+}
+.top-menu {
+    float: right;
+}
+.top-menu a{
+    display:inline-block;
+    margin: 0 10px;
+}
+
+.head {
+    width: 1200px;
+    margin: 10px auto 5px auto;
+}
+.head h1 {
+    float: left;
+    margin: 10px 0;
+}
+.layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after, .shuju-box:after, .gs-box:after {
+    height: 4px!important;
+}
+.nav {
+    float: right;
+}
+.nav ul {
+
+}
+.nav ul li {
+    float: left;
+    margin: 0px 15px;
+}
+.nav ul li a{
+    display: inline-block;
+    font-size: 16px;
+}
+.layui-this a {
+    color: #ffffff;
+    background: #4100db;
+    border-radius: 40px;
+    line-height:50px;
+    margin: 6px 0;
+    padding: 0 15px;
+
+}
+.layui-this a:hover{
+    color:#ffffff;
+}
+.cont {
+    background: url("../images/bg.png") no-repeat;
+    height: auto;
+    min-height: 860px;
+    width: 100%;
+}
+.content {
+    background-color: #111111;
+    height: auto;
+    width: 100%;
+}
+
+.con-text {
+    color:#ffffff;
+    z-index: 6;
+    text-align: center;
+    padding-top: 300px;
+}
+.con-text-num {
+    font-size: 75px;
+    line-height: 100px;
+
+}
+.con-text-txt {
+    font-size: 95px;
+    font-weight: bold;
+    line-height: 100px;
+}
+.con-text-en {
+    opacity: 0.5;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+/*.con-text-num, .con-text-txt, .con-text-en{*/
+/*    -moz-transform:donghua ease-in-out 0.6s;*/
+/*    -webkit-animation:donghua ease-in-out 0.6s;*/
+/*    animation:donghua ease-in-out 0.6s;*/
+/*    animation-timing-function:linear;*/
+/*    transform:translate(0,0);}*/
+/*@-webkit-keyframes con-text-txt {*/
+/*    0% {*/
+/*        transform:translate(0,-400px);*/
+/*        opacity:0;*/
+/*    }*/
+/*    100% {*/
+/*        transform:translate(0,0);*/
+/*        opacity:1;*/
+/*    }*/
+/*}*/
+/*@keyframes donghua{*/
+/*    0% {*/
+/*        transform:translate(0,-400px);*/
+/*        opacity:0;*/
+/*    }*/
+/*    100% {*/
+/*        transform:translate(0,0);*/
+/*        opacity:1;*/
+/*    }*/
+/*}*/
+ /*renwu*/
+.title, .shuju-box{
+    margin: 0 auto;
+}
+.title {
+    color: #FFFFFF;
+    padding:30px 0 10px 480px;
+}
+.title-num {
+    font-weight: bold;
+    font-size: 30px;
+}
+.title-txt {
+    font-size: 26px;
+}
+.title-en {
+    font-size: 20px;
+    opacity: 0.15;
+    text-transform: uppercase;
+}
+
+.title-line {
+    height: 11px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.con-box {
+    z-index: 10;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.con-img {
+    width: 1800px;
+    margin: 0 auto;
+}
+.layui-nav .layui-this:after {
+     bottom: auto!important;
+}
